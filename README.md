@@ -1,4 +1,6 @@
 # gustierides
 Ride Options for Gusties
 
-**App Name:*
+**App Name:**
+
+**Need:** This app allows Gustavus students
