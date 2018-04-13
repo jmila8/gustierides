@@ -1,15 +1,19 @@
 # gustierides
 Ride Options for Gusties
+Duy Pham, Xuan Le, Jessie Mila
 
 **App Name:**
 
-**Need:**
+**Need:** Allows Gustavus students who are looking for a ride easy access to ride
+option information and requests
 
-**External Service:**
+**External Service:** Add webpage link to Gustavus info pages for Safe Rides, Shuttle, and
+Land to Air
 
-**Sensor:**
+**Sensor:** Implement GPS to show start and end location
 
-**UI:**
+**UI:** Contain a homepage with buttons to direct to info pages for each ride service and
+a wall page for students to post ride requests
 
 **Domain Objects:**
 
