@@ -19,7 +19,7 @@ be willing to give a ride or do not have a car will not be bothered by notificat
 as well as their desired location. This way drivers can calculate the distance and time of the trip
 and decide if they are willing to give the ride to the student or not.
 
-**UI:**
+**UI:** 
 
 **Domain Objects:**
 
