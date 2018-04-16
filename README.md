@@ -19,3 +19,7 @@ a wall page for students to post ride requests
 **Domain Objects:**
 
 **Persistent Data:**
+
+**Sketches:**
+![](pic.jpg)
+![](pic2.jpg)
