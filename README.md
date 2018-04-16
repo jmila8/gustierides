@@ -20,7 +20,9 @@ a wall page for students to post ride requests
 ![](figure1.jpg)
 ![](figure2.jpg)
 ![](figure3.jpg)
-**Persistent Data:**
+
+**Persistent Data:** Using Gustavus credentials, students can willingly add their rides info to the 
+database. Also, we automatically update GusBus, shuttle, landtoair, safe rides schedules.
 
 **Sketches:**
 
