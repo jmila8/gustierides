@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GustieRides</string>
+    <string name="wallpost_button">Wall Posts</string>
+    <string name="saferide_button">Safe Ride</string>
+    <string name="gusbus_button">Gus Bus</string>
+    <string name="shuttle_button">Shuttle</string>
+    <string name="landtoair_button">Land To Air</string>
 </resources>
