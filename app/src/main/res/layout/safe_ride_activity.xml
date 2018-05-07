@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/safe_ride"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/safeRide_button" />
+
+=======
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,4 +72,5 @@
 
 
 
+>>>>>>> 5af3a57c1388da6d620daff1cac41b17679e3617
 </android.support.constraint.ConstraintLayout>
