@@ -1,3 +1,4 @@
+
 package edu.gac.jmila.gustierides;
 
 /**
@@ -5,4 +6,9 @@ package edu.gac.jmila.gustierides;
  */
 
 public class gusBus {
+   @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.gus_bus_activity);
+    }
 }
