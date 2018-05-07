@@ -24,7 +24,7 @@ import android.widget.Button;
 
 
 
-public class homePage extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
 
 
