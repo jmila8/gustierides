@@ -25,11 +25,12 @@
             android:text="@string/landToAir_info" />
 
         <Button
+            android:id="@+id/landtoair_website"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:layout_marginTop="450dp"
-            android:text="@string/landToAir_website"/>
+            android:text="@string/landToAir_website" />
 
 
     </FrameLayout>
