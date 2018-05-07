@@ -1,35 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center|bottom"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/logo1" />
+
     <LinearLayout
-        android:layout_width="150dp"
-        android:layout_height="200sp"
-        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="170dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/crime_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerInside"
+                android:cropToPadding="true"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageButton
+                android:id="@+id/crime_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_camera"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_vertical|center_horizontal|center"
         android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/wall_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wallPost_button"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
 
         <Button
             android:id="@+id/gus_bus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/gusBus_button" />
+            android:text="@string/gusBus_button"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
 
         <Button
             android:id="@+id/safe_ride"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/safeRide_button" />
+            android:text="@string/safeRide_button"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
+
 
         <Button
             android:id="@+id/land_to_air"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/landToAir_button" />
+            android:text="@string/landToAir_button"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
 
     </LinearLayout>
 
 
-</LinearLayout>
+</FrameLayout>
