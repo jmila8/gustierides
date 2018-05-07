@@ -1,3 +1,4 @@
+
 package edu.gac.jmila.gustierides;
 
 /**
@@ -5,4 +6,10 @@ package edu.gac.jmila.gustierides;
  */
 
 public class landToAir {
+   @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.land_to_air_activity);
+    }
+
 }
