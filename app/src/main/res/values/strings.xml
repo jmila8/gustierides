@@ -3,6 +3,10 @@
     <string name="wallPost_button">Wall Posts</string>
     <string name="safeRide_button">Safe Ride</string>
     <string name="gusBus_button">Gus Bus</string>
-    <string name="shuttle_button">Shuttle</string>
     <string name="landToAir_button">Land To Air</string>
+    <string name="safe_ride_logo">Safe Ride Logo</string>
+    <string name="safe_ride_info">A Campus Safety student employee will be available to give safe rides from
+        specifically marked locations from November 1–April 1 6 p.m.–1 a.m., April 1–October 31
+        7 p.m.–1 a.m. every night.</string>
+    <string name="call_button">Call Us Now </string>
 </resources>
