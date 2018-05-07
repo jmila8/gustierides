@@ -25,19 +25,20 @@
             android:text="@string/landToAir_info" />
 
         <Button
+            android:id="@+id/landtoair_call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="180dp"
             android:layout_gravity="center"
-            android:text="@string/landToAir_call"
-            />
+            android:layout_marginTop="180dp"
+            android:text="@string/landToAir_call" />
 
         <Button
+            android:id="@+id/landtoair_website"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:layout_marginTop="450dp"
-            android:text="@string/landToAir_website"/>
+            android:text="@string/landToAir_website" />
 
 
     </FrameLayout>
