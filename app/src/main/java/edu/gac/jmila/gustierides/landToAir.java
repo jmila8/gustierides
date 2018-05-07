@@ -2,8 +2,10 @@
 package edu.gac.jmila.gustierides;
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-public class landToAir {
+
+public class landToAir extends AppCompatActivity {
 
    @Override
     public void onCreate(Bundle savedInstanceState) {
