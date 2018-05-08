@@ -31,7 +31,7 @@ public class landToAir extends AppCompatActivity {
         mLandtoairCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri number = Uri.parse("8887369190");
+                Uri number = Uri.parse("tel:8887369190");
                 Intent makeCall = new Intent(Intent.ACTION_DIAL, number);
                 startActivity(makeCall);
             }
