@@ -18,9 +18,11 @@
     <string name="landToAir_website">Complete Schedule</string>
     <string name="landToAir_logo">Land to Air Logo</string>
     <string name="landToAir_call">Call Land to Air</string>
-    <string name="gusBus_info">Gus Bus will transport anyone that wants to travel anywhere in the Saint Peter area.\n
+    <string name="gusBus_info">Gus Bus will transport anyone that wants to travel anywhere in the Saint Peter area for free. \n
     Phone Number: (888) 880-4696 \n
-    Hours of Operation: \n Wednesday: 10pm - 2am \n Friday and Saturday: 9pm - 2am</string>
+    Hours of Operation: \n Wednesday: 10pm - 2am \n Friday and Saturday: 9pm - 2am \n
+    Outside these specified times, students can use the St. Peter Transit to travel at
+        prices listed on the website.</string>
     <string name="gusBus_call">Call Gus Bus</string>
 
 </resources>
