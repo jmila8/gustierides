@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".gusBus">
         </activity>
+        <activity android:name=".safeRides">
+        </activity>
     </application>
 
 </manifest>
