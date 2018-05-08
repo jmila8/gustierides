@@ -11,6 +11,7 @@ import android.widget.Button;
 
 public class landToAir extends AppCompatActivity {
     private Button mLandtoairWebsite;
+    private Button mLandtoairCall;
 
    @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,15 @@ public class landToAir extends AppCompatActivity {
                 Uri uriUrl = Uri.parse("https://www.landtoairexpress.com/");
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
+            }
+        });
+        mLandtoairCall = (Button)findViewById(R.id.landtoair_call);
+        mLandtoairCall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri number = Uri.parse("8887369190");
+                Intent makeCall = new Intent(Intent.ACTION_DIAL, number);
+                startActivity(makeCall);
             }
         });
     }

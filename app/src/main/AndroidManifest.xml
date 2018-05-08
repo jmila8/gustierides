@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".landToAir">
-
+        </activity>
+        <activity android:name=".gusBus">
         </activity>
     </application>
 
