@@ -27,7 +27,7 @@ public class gusBus extends AppCompatActivity{
            }
        });
 
-       mGusBusWebsite = (Button)findViewById(R.id.landtoair_website);
+       mGusBusWebsite = (Button)findViewById(R.id.transit_site);
        mGusBusWebsite.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
