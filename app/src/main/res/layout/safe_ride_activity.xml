@@ -37,6 +37,7 @@
             android:src="@drawable/safe_ride" />
 
         <Button
+            android:id="@+id/safeRides_call"
             style="@android:style/Widget.DeviceDefault.ImageButton"
             android:layout_width="195dp"
             android:layout_height="75dp"
