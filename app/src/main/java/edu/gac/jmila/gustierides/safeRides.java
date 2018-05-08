@@ -16,7 +16,7 @@ public class safeRides extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.safe_ride_activity);
 
-       mSafeRidesCall = (Button)findViewById(R.id.landtoair_call);
+       mSafeRidesCall = (Button)findViewById(R.id.safeRides_call);
        mSafeRidesCall.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
