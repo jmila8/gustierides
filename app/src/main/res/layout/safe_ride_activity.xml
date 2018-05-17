@@ -37,14 +37,12 @@
             android:src="@drawable/safe_ride" />
 
         <Button
-            android:id="@+id/safeRides_call"
             style="@android:style/Widget.DeviceDefault.ImageButton"
-            android:layout_width="195dp"
+            android:layout_width="200dp"
             android:layout_height="75dp"
-            android:layout_marginBottom="350dp"
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
-            android:layout_marginTop="280dp"
+            android:layout_marginTop="300dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#f7d091"
             android:cropToPadding="false"
