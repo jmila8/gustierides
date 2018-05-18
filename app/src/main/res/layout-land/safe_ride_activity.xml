@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="157dp"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="serif"
+            android:gravity="center_vertical|center"
+            android:text="@string/safe_ride_info"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/safe_ride_logo"
+            android:scaleType="fitStart"
+            android:src="@drawable/safe_ride" />
+
+        <Button
+            android:id="@+id/safeRides_call"
+            style="@android:style/Widget.DeviceDefault.ImageButton"
+            android:layout_width="195dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="400dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="220dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#f7d091"
+            android:cropToPadding="false"
+            android:fontFamily="cursive"
+            android:text="@string/call_button"
+            android:textSize="28dp"
+            android:textStyle="bold|italic" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

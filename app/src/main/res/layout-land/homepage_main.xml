@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:orientation="vertical"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/logo1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="170dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_vertical|center_horizontal|center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/wall_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wallPost_button"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
+
+        <Button
+            android:id="@+id/gus_bus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gusBus_button"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
+
+        <Button
+            android:id="@+id/safe_ride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/safeRide_button"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
+
+
+        <Button
+            android:id="@+id/land_to_air"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/landToAir_button"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

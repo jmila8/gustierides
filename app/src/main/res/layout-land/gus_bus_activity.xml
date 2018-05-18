@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/gus_bus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="250dp"
+            android:text="@string/gusBus_landscape"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/gusBus_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="240dp"
+            android:text="@string/gusBus_call" />
+
+        <Button
+            android:id="@+id/transit_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420dp"
+            android:layout_marginTop="240dp"
+            android:text="St. Peter Transit"/>
+
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
