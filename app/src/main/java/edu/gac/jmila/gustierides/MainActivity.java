@@ -77,6 +77,15 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        mWallPost = (Button) findViewById(R.id.wall_post);
+
+        mWallPost.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, rideListActivity.class);
+                startActivity(myIntent);
+            }
+        });
     }
 
 

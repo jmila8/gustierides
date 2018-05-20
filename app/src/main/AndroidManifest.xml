@@ -22,6 +22,11 @@
         </activity>
         <activity android:name=".safeRides">
         </activity>
+        <activity android:name=".rideListActivity">
+        </activity>
+        <activity android:name=".RidePagerActivity"
+            android:parentActivityName=".rideListActivity">
+        </activity>
     </application>
 
 </manifest>
